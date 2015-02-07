@@ -8,7 +8,13 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <TextBlock HorizontalAlignment="Left" Margin="263,287,0,0" TextWrapping="Wrap" Text="Hello World, Windows Store App!" VerticalAlignment="Top" FontSize="36"/>
+        <TextBlock 
+            HorizontalAlignment="Left" 
+            Margin="250,300,0,0" 
+            TextWrapping="Wrap" 
+            Text="Hello World, Windows Store App!" 
+            VerticalAlignment="Top" 
+            FontSize="36" Foreground="{StaticResource ToolTipForegroundThemeBrush}"/>
 
     </Grid>
 </Page>

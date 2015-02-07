@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>HISGEND</Machine>
-    <WindowsUser>Alexander Guan</WindowsUser>
+    <Machine>STRATEGY</Machine>
+    <WindowsUser>strategydev</WindowsUser>
     <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>e7b3a487-699d-462f-9dd0-53649b3a2d07</PackageIdentityName>
-    <IntermediateOutputPath>C:\Users\Alexander Guan\Documents\GitHub\WindowsStoreApp1\App1\App1\obj\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\strategydev\Documents\GitHub\WindowsStoreApp1\App1\App1\obj\Debug\</IntermediateOutputPath>
     <RegisteredManifestChecksum>3CD83EF3B72E960C704702A1174146489E3BD99210990391BE08DFE64519FF8C</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>e7b3a487-699d-462f-9dd0-53649b3a2d07_1.0.0.0_neutral__r7t9nvry217fc</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>e7b3a487-699d-462f-9dd0-53649b3a2d07_r7t9nvry217fc!App</RegisteredUserModeAppID>
@@ -17,52 +17,52 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Alexander Guan\Documents\GitHub\WindowsStoreApp1\App1\App1\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\strategydev\Documents\GitHub\WindowsStoreApp1\App1\App1\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-02-07T02:50:55.291</Modified>
+      <Modified>2015-02-07T03:02:13.304</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Alexander Guan\Documents\GitHub\WindowsStoreApp1\App1\App1\bin\Debug\App1.exe">
+    <AppxPackagedFile Include="C:\Users\strategydev\Documents\GitHub\WindowsStoreApp1\App1\App1\bin\Debug\App1.exe">
       <PackagePath>App1.exe</PackagePath>
-      <Modified>2015-02-07T02:50:54.942</Modified>
+      <Modified>2015-02-07T03:02:12.851</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alexander Guan\Documents\GitHub\WindowsStoreApp1\App1\App1\Assets\Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\strategydev\Documents\GitHub\WindowsStoreApp1\App1\App1\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-02-07T02:43:31.584</Modified>
+      <Modified>2013-07-23T06:01:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alexander Guan\Documents\GitHub\WindowsStoreApp1\App1\App1\Assets\SmallLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\strategydev\Documents\GitHub\WindowsStoreApp1\App1\App1\Assets\SmallLogo.scale-100.png">
       <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-02-07T02:43:31.585</Modified>
+      <Modified>2013-07-23T06:01:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alexander Guan\Documents\GitHub\WindowsStoreApp1\App1\App1\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\strategydev\Documents\GitHub\WindowsStoreApp1\App1\App1\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-02-07T02:43:31.587</Modified>
+      <Modified>2013-07-23T06:01:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alexander Guan\Documents\GitHub\WindowsStoreApp1\App1\App1\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\strategydev\Documents\GitHub\WindowsStoreApp1\App1\App1\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-02-07T02:43:31.588</Modified>
+      <Modified>2013-07-23T06:01:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alexander Guan\Documents\GitHub\WindowsStoreApp1\App1\App1\bin\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\strategydev\Documents\GitHub\WindowsStoreApp1\App1\App1\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2015-02-07T02:50:54.741</Modified>
+      <Modified>2015-02-07T03:02:12.536</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alexander Guan\Documents\GitHub\WindowsStoreApp1\App1\App1\bin\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\strategydev\Documents\GitHub\WindowsStoreApp1\App1\App1\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2015-02-07T02:50:54.743</Modified>
+      <Modified>2015-02-07T03:02:12.536</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alexander Guan\Documents\GitHub\WindowsStoreApp1\App1\App1\bin\Debug\App1.xr.xml">
+    <AppxPackagedFile Include="C:\Users\strategydev\Documents\GitHub\WindowsStoreApp1\App1\App1\bin\Debug\App1.xr.xml">
       <PackagePath>App1.xr.xml</PackagePath>
-      <Modified>2015-02-07T02:50:54.673</Modified>
+      <Modified>2015-02-07T03:00:49.295</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alexander Guan\Documents\GitHub\WindowsStoreApp1\App1\App1\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\strategydev\Documents\GitHub\WindowsStoreApp1\App1\App1\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-02-07T02:50:55.092</Modified>
+      <Modified>2015-02-07T03:02:13.072</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

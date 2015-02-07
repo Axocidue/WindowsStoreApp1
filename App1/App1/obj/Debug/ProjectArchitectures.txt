@@ -1,1 +1,1 @@
-C:\Users\Alexander Guan\Documents\GitHub\WindowsStoreApp1\App1\App1\App1.csproj;neutral
+C:\Users\strategydev\Documents\GitHub\WindowsStoreApp1\App1\App1\App1.csproj;neutral

@@ -26,5 +26,21 @@ namespace App1
         {
             this.InitializeComponent();
         }
+
+        private void btnFirst_Click(object sender, RoutedEventArgs e)
+        {
+            tbkFirst.Text += "\r\n Button Clicked.";
+        }
+
+        private void Border_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            tbkFirst.Text += "\r\n Border Tapped.";
+            e.Handled = true;
+        }
+
+        private void pnlFirst_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            tbkFirst.Text += "\r\n StackPanel Tapped";
+        }
     }
 }

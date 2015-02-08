@@ -62,3 +62,35 @@ C:\Users\Alexander Guan\Documents\GitHub\WindowsStoreApp1\App1\App1\obj\Debug\qu
 C:\Users\Alexander Guan\Documents\GitHub\WindowsStoreApp1\App1\App1\obj\Debug\qualifiers.txt.intermediate
 C:\Users\Alexander Guan\Documents\GitHub\WindowsStoreApp1\App1\App1\obj\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Alexander Guan\Documents\GitHub\WindowsStoreApp1\App1\App1\obj\Debug\ProjectArchitectures.txt
+C:\Users\statdev\Documents\GitHub\WindowsStoreApp1\App1\App1\bin\Debug\App.xbf
+C:\Users\statdev\Documents\GitHub\WindowsStoreApp1\App1\App1\bin\Debug\MainPage.xbf
+C:\Users\statdev\Documents\GitHub\WindowsStoreApp1\App1\App1\bin\Debug\App1.xr.xml
+C:\Users\statdev\Documents\GitHub\WindowsStoreApp1\App1\App1\bin\Debug\App1.exe
+C:\Users\statdev\Documents\GitHub\WindowsStoreApp1\App1\App1\bin\Debug\App1.pdb
+C:\Users\statdev\Documents\GitHub\WindowsStoreApp1\App1\App1\bin\Debug\resources.pri
+C:\Users\statdev\Documents\GitHub\WindowsStoreApp1\App1\App1\bin\Debug\AppxManifest.xml
+C:\Users\statdev\Documents\GitHub\WindowsStoreApp1\App1\App1\bin\Debug\App1.build.appxrecipe
+C:\Users\statdev\Documents\GitHub\WindowsStoreApp1\App1\App1\obj\Debug\App.g.i.cs
+C:\Users\statdev\Documents\GitHub\WindowsStoreApp1\App1\App1\obj\Debug\App.g.cs
+C:\Users\statdev\Documents\GitHub\WindowsStoreApp1\App1\App1\obj\Debug\MainPage.g.i.cs
+C:\Users\statdev\Documents\GitHub\WindowsStoreApp1\App1\App1\obj\Debug\MainPage.g.cs
+C:\Users\statdev\Documents\GitHub\WindowsStoreApp1\App1\App1\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\statdev\Documents\GitHub\WindowsStoreApp1\App1\App1\obj\Debug\App.xaml
+C:\Users\statdev\Documents\GitHub\WindowsStoreApp1\App1\App1\obj\Debug\MainPage.xaml
+C:\Users\statdev\Documents\GitHub\WindowsStoreApp1\App1\App1\obj\Debug\App.xbf
+C:\Users\statdev\Documents\GitHub\WindowsStoreApp1\App1\App1\obj\Debug\MainPage.xbf
+C:\Users\statdev\Documents\GitHub\WindowsStoreApp1\App1\App1\obj\Debug\XamlSaveStateFile.xml
+C:\Users\statdev\Documents\GitHub\WindowsStoreApp1\App1\App1\obj\Debug\App1.exe
+C:\Users\statdev\Documents\GitHub\WindowsStoreApp1\App1\App1\obj\Debug\App1.pdb
+C:\Users\statdev\Documents\GitHub\WindowsStoreApp1\App1\App1\obj\Debug\priconfig.xml
+C:\Users\statdev\Documents\GitHub\WindowsStoreApp1\App1\App1\obj\Debug\priconfig.xml.intermediate
+C:\Users\statdev\Documents\GitHub\WindowsStoreApp1\App1\App1\obj\Debug\layout.resfiles
+C:\Users\statdev\Documents\GitHub\WindowsStoreApp1\App1\App1\obj\Debug\layout.resfiles.intermediate
+C:\Users\statdev\Documents\GitHub\WindowsStoreApp1\App1\App1\obj\Debug\resources.resfiles
+C:\Users\statdev\Documents\GitHub\WindowsStoreApp1\App1\App1\obj\Debug\resources.resfiles.intermediate
+C:\Users\statdev\Documents\GitHub\WindowsStoreApp1\App1\App1\obj\Debug\pri.resfiles
+C:\Users\statdev\Documents\GitHub\WindowsStoreApp1\App1\App1\obj\Debug\pri.resfiles.intermediate
+C:\Users\statdev\Documents\GitHub\WindowsStoreApp1\App1\App1\obj\Debug\qualifiers.txt
+C:\Users\statdev\Documents\GitHub\WindowsStoreApp1\App1\App1\obj\Debug\qualifiers.txt.intermediate
+C:\Users\statdev\Documents\GitHub\WindowsStoreApp1\App1\App1\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\statdev\Documents\GitHub\WindowsStoreApp1\App1\App1\obj\Debug\ProjectArchitectures.txt

@@ -15,22 +15,17 @@
             Text="Hello World, Windows Store App!" 
             VerticalAlignment="Top" 
             FontSize="36" Foreground="{StaticResource ToolTipForegroundThemeBrush}"/>
-
-        <StackPanel
-            x:Name="pnlFirst" Width="200" Height="200">
-            <!--<StackPanel.Orientation>Horizontal</StackPanel.Orientation>
-            <Button x:Name="btnFirst" Content="Button1"></Button>
-            <Button x:Name="btnSecond" Content="Button2" ></Button>
-            --><!--<Button x:Name="btnThrid" Content="Button3" ></Button>
-            <Button x:Name="btnFourth" Content="Button4" ></Button>--><!--
-            <TextBlock x:Name="tbkFirst" Text="myText"></TextBlock>-->
+        <StackPanel x:ConnectionId='1' x:Name="pnlFirst" Width="200" Height="200"                         >
+            <StackPanel.Orientation>Horizontal</StackPanel.Orientation>                     
             <StackPanel.Resources>
                 <Style TargetType="Border" x:Key="PageBackground">
-                    <Setter Property="BorderBrush" Value="Blue" ></Setter>
-                    <Setter Property="BorderThickness" Value="5" ></Setter>
+                    <Setter Property="BorderBrush" Value="Wheat" ></Setter>
+                    <Setter Property="BorderThickness" Value="0.5" ></Setter>
                 </Style>
             </StackPanel.Resources>
-            <Border Style="{StaticResource PageBackground}"></Border>
+            <Border></Border>
+            <Button x:ConnectionId='2' x:Name="btnFirst" Content="Button1"                       ></Button>
+            <TextBlock x:Name="tbkFirst" Text="Actions: " VerticalAlignment="Bottom" HorizontalAlignment="Left"></TextBlock>
         </StackPanel>
     </Grid>
 </Page>

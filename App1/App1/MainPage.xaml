@@ -16,5 +16,14 @@
             VerticalAlignment="Top" 
             FontSize="36" Foreground="{StaticResource ToolTipForegroundThemeBrush}"/>
 
+        <StackPanel
+            x:Name="pnlFirst" Width="200" Height="200">
+            <StackPanel.Orientation>Horizontal</StackPanel.Orientation>
+            <Button x:Name="btnFirst" Content="Button1"></Button>
+            <Button x:Name="btnSecond" Content="Button2" ></Button>
+            <!--<Button x:Name="btnThrid" Content="Button3" ></Button>
+            <Button x:Name="btnFourth" Content="Button4" ></Button>-->
+            <TextBlock x:Name="tbkFirst" Text="myText"></TextBlock>
+        </StackPanel>
     </Grid>
 </Page>

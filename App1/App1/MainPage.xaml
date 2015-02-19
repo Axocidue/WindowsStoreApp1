@@ -8,7 +8,7 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <TextBlock 
+        <!--<TextBlock 
             HorizontalAlignment="Left" 
             Margin="250,300,0,0" 
             TextWrapping="Wrap" 
@@ -26,6 +26,71 @@
             <Border></Border>
             <Button x:Name="btnFirst" Content="Button1" Click="btnFirst_Click"></Button>
             <TextBlock x:Name="tbkFirst" Text="Actions: " VerticalAlignment="Bottom" HorizontalAlignment="Left"></TextBlock>
+            
         </StackPanel>
+
+        <Button Content="Transitioning Button" Margin="50,100,0,0">
+            <Button.Transitions>
+                <TransitionCollection>
+                    <EntranceThemeTransition 
+                            FromHorizontalOffset="500"
+                            FromVerticalOffset="200"></EntranceThemeTransition>
+                </TransitionCollection>
+            </Button.Transitions>
+        </Button>-->
+        
+        <StackPanel x:Name="LayoutRoot" Margin="200,250,200,250">
+            <StackPanel.Resources>
+                <Style x:Key="DefaultButtonStyle" TargetType="Button">
+                    <Setter Property="Transitions">
+                        <Setter.Value>
+                            <TransitionCollection>
+                                <EntranceThemeTransition />
+                            </TransitionCollection>                            
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </StackPanel.Resources>
+            <Button Style="{StaticResource DefaultButtonStyle}" Content="Another Transitioning Button"></Button>
+            <ItemsControl x:Name="rectangleItems">
+                <!--<ItemsControl.ItemContainerTransitions>
+                    <TransitionCollection>
+                        <EntranceThemeTransition />
+                    </TransitionCollection>
+                </ItemsControl.ItemContainerTransitions>-->
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <WrapGrid Height="400" />
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+                <ItemsControl.Resources>
+                    <Style x:Key="DefaultRectangleStyle" TargetType="Rectangle">
+                        <Setter Property="Transitions">
+                            <Setter.Value>
+                                <TransitionCollection>
+                                    <EntranceThemeTransition />
+                                </TransitionCollection>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </ItemsControl.Resources>
+                <ItemsControl.Items>
+                    <Rectangle Style="{StaticResource DefaultRectangleStyle}" Fill="Azure" Width="100" Height="100" Margin="10" />
+                    <Rectangle Style="{StaticResource DefaultRectangleStyle}" Fill="Azure" Width="100" Height="100" Margin="10" />
+                    <Rectangle Style="{StaticResource DefaultRectangleStyle}" Fill="Azure" Width="100" Height="100" Margin="10" />
+                    <Rectangle Style="{StaticResource DefaultRectangleStyle}" Fill="Azure" Width="100" Height="100" Margin="10" />
+                    <Rectangle Style="{StaticResource DefaultRectangleStyle}" Fill="Azure" Width="100" Height="100" Margin="10" />
+                    <Rectangle Style="{StaticResource DefaultRectangleStyle}" Fill="Azure" Width="100" Height="100" Margin="10" />
+                    <Rectangle Style="{StaticResource DefaultRectangleStyle}" Fill="Azure" Width="100" Height="100" Margin="10" />
+                    <Rectangle Style="{StaticResource DefaultRectangleStyle}" Fill="Azure" Width="100" Height="100" Margin="10" />
+                    <Rectangle Style="{StaticResource DefaultRectangleStyle}" Fill="Azure" Width="100" Height="100" Margin="10" />
+                    <Rectangle Style="{StaticResource DefaultRectangleStyle}" Fill="Azure" Width="100" Height="100" Margin="10" />
+                    <Rectangle Style="{StaticResource DefaultRectangleStyle}" Fill="Azure" Width="100" Height="100" Margin="10" />
+                    <Rectangle Style="{StaticResource DefaultRectangleStyle}" Fill="Azure" Width="100" Height="100" Margin="10" />
+                    <Rectangle Style="{StaticResource DefaultRectangleStyle}" Fill="Azure" Width="100" Height="100" Margin="10" />
+                </ItemsControl.Items>
+            </ItemsControl>
+        </StackPanel>
+        
     </Grid>
 </Page>

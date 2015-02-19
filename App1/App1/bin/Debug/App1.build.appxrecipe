@@ -1,50 +1,50 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>STAT</Machine>
-    <WindowsUser>statdev</WindowsUser>
+    <Machine>HISGEND</Machine>
+    <WindowsUser>Alexander Guan</WindowsUser>
     <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>e7b3a487-699d-462f-9dd0-53649b3a2d07</PackageIdentityName>
-    <IntermediateOutputPath>C:\Users\statdev\Documents\GitHub\WindowsStoreApp1\App1\App1\obj\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Alexander Guan\Documents\GitHub\WindowsStoreApp1\App1\App1\obj\Debug\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\statdev\Documents\GitHub\WindowsStoreApp1\App1\App1\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Alexander Guan\Documents\GitHub\WindowsStoreApp1\App1\App1\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\statdev\Documents\GitHub\WindowsStoreApp1\App1\App1\bin\Debug\App1.exe">
+    <AppxPackagedFile Include="C:\Users\Alexander Guan\Documents\GitHub\WindowsStoreApp1\App1\App1\bin\Debug\App1.exe">
       <PackagePath>App1.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\statdev\Documents\GitHub\WindowsStoreApp1\App1\App1\Assets\Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Alexander Guan\Documents\GitHub\WindowsStoreApp1\App1\App1\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\statdev\Documents\GitHub\WindowsStoreApp1\App1\App1\Assets\SmallLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Alexander Guan\Documents\GitHub\WindowsStoreApp1\App1\App1\Assets\SmallLogo.scale-100.png">
       <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\statdev\Documents\GitHub\WindowsStoreApp1\App1\App1\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Alexander Guan\Documents\GitHub\WindowsStoreApp1\App1\App1\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\statdev\Documents\GitHub\WindowsStoreApp1\App1\App1\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Alexander Guan\Documents\GitHub\WindowsStoreApp1\App1\App1\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\statdev\Documents\GitHub\WindowsStoreApp1\App1\App1\bin\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Alexander Guan\Documents\GitHub\WindowsStoreApp1\App1\App1\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\statdev\Documents\GitHub\WindowsStoreApp1\App1\App1\bin\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Alexander Guan\Documents\GitHub\WindowsStoreApp1\App1\App1\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\statdev\Documents\GitHub\WindowsStoreApp1\App1\App1\bin\Debug\App1.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Alexander Guan\Documents\GitHub\WindowsStoreApp1\App1\App1\bin\Debug\App1.xr.xml">
       <PackagePath>App1.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\statdev\Documents\GitHub\WindowsStoreApp1\App1\App1\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Alexander Guan\Documents\GitHub\WindowsStoreApp1\App1\App1\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

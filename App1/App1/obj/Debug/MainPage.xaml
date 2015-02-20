@@ -50,17 +50,31 @@
                         </Setter.Value>
                     </Setter>
                 </Style>
+                <Storyboard x:Name="myStoryBoard">
+                    <!--<FadeOutThemeAnimation Storyboard.TargetName="myRectangle" />-->
+                    <DoubleAnimation Storyboard.TargetName="myRectangle"
+                                     Storyboard.TargetProperty="Opacity"
+                                     From="1.0"
+                                     To="0.0"
+                                     Duration="0:0:0.1"
+                                     AutoReverse="True" 
+                                     RepeatBehavior="Forever"/>
+                </Storyboard>
             </StackPanel.Resources>
-            <Button Style="{StaticResource DefaultButtonStyle}" Content="Another Transitioning Button"></Button>
+            <Button x:ConnectionId='1' Style="{StaticResource DefaultButtonStyle}" 
+                    Content="Remove Rectangle"
+                                          ></Button>
+            
             <ItemsControl x:Name="rectangleItems">
-                <!--<ItemsControl.ItemContainerTransitions>
+                <ItemsControl.ItemContainerTransitions>
                     <TransitionCollection>
                         <EntranceThemeTransition />
+                        <RepositionThemeTransition />
                     </TransitionCollection>
-                </ItemsControl.ItemContainerTransitions>-->
+                </ItemsControl.ItemContainerTransitions>
                 <ItemsControl.ItemsPanel>
                     <ItemsPanelTemplate>
-                        <WrapGrid Height="400" />
+                        <WrapGrid Height="500" />
                     </ItemsPanelTemplate>
                 </ItemsControl.ItemsPanel>
                 <ItemsControl.Resources>
@@ -75,19 +89,19 @@
                     </Style>
                 </ItemsControl.Resources>
                 <ItemsControl.Items>
-                    <Rectangle Style="{StaticResource DefaultRectangleStyle}" Fill="Azure" Width="100" Height="100" Margin="10" />
-                    <Rectangle Style="{StaticResource DefaultRectangleStyle}" Fill="Azure" Width="100" Height="100" Margin="10" />
-                    <Rectangle Style="{StaticResource DefaultRectangleStyle}" Fill="Azure" Width="100" Height="100" Margin="10" />
-                    <Rectangle Style="{StaticResource DefaultRectangleStyle}" Fill="Azure" Width="100" Height="100" Margin="10" />
-                    <Rectangle Style="{StaticResource DefaultRectangleStyle}" Fill="Azure" Width="100" Height="100" Margin="10" />
-                    <Rectangle Style="{StaticResource DefaultRectangleStyle}" Fill="Azure" Width="100" Height="100" Margin="10" />
-                    <Rectangle Style="{StaticResource DefaultRectangleStyle}" Fill="Azure" Width="100" Height="100" Margin="10" />
-                    <Rectangle Style="{StaticResource DefaultRectangleStyle}" Fill="Azure" Width="100" Height="100" Margin="10" />
-                    <Rectangle Style="{StaticResource DefaultRectangleStyle}" Fill="Azure" Width="100" Height="100" Margin="10" />
-                    <Rectangle Style="{StaticResource DefaultRectangleStyle}" Fill="Azure" Width="100" Height="100" Margin="10" />
-                    <Rectangle Style="{StaticResource DefaultRectangleStyle}" Fill="Azure" Width="100" Height="100" Margin="10" />
-                    <Rectangle Style="{StaticResource DefaultRectangleStyle}" Fill="Azure" Width="100" Height="100" Margin="10" />
-                    <Rectangle Style="{StaticResource DefaultRectangleStyle}" Fill="Azure" Width="100" Height="100" Margin="10" />
+                    <Rectangle x:ConnectionId='2' x:Name="myRectangle" Fill="Beige" Width="100" Height="100" Margin="10"                                             />
+                    <Rectangle Fill="Azure" Width="100" Height="100" Margin="10" />
+                    <Rectangle Fill="Azure" Width="100" Height="100" Margin="10" />
+                    <Rectangle Fill="Azure" Width="100" Height="100" Margin="10" />
+                    <Rectangle Fill="Azure" Width="100" Height="100" Margin="10" />
+                    <Rectangle Fill="Azure" Width="100" Height="100" Margin="10" />
+                    <Rectangle Fill="Azure" Width="100" Height="100" Margin="10" />
+                    <Rectangle Fill="Azure" Width="100" Height="100" Margin="10" />
+                    <Rectangle Fill="Azure" Width="100" Height="100" Margin="10" />
+                    <Rectangle Fill="Azure" Width="100" Height="100" Margin="10" />
+                    <Rectangle Fill="Azure" Width="100" Height="100" Margin="10" />
+                    <Rectangle Fill="Azure" Width="100" Height="100" Margin="10" />
+                    <Rectangle Fill="Azure" Width="100" Height="100" Margin="10" />
                 </ItemsControl.Items>
             </ItemsControl>
         </StackPanel>

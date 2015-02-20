@@ -30,6 +30,7 @@ namespace App1
         private void btnFirst_Click(object sender, RoutedEventArgs e)
         {
             //tbkFirst.Text += "\r\n Button Clicked.";
+            if (rectangleItems.Items.Count > 0) rectangleItems.Items.RemoveAt(0);
         }
 
         private void Border_Tapped(object sender, TappedRoutedEventArgs e)
@@ -41,6 +42,12 @@ namespace App1
         private void pnlFirst_Tapped(object sender, TappedRoutedEventArgs e)
         {
             //tbkFirst.Text += "\r\n StackPanel Tapped";
+        }
+
+        private void myRectangle_PointerPressed(object sender, PointerRoutedEventArgs e)
+        {
+            myStoryBoard.Begin();
+            //if (rectangleItems.Items.Count > 0) rectangleItems.Items.RemoveAt(0);
         }
     }
 }

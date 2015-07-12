@@ -8,7 +8,7 @@
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>e7b3a487-699d-462f-9dd0-53649b3a2d07</PackageIdentityName>
     <IntermediateOutputPath>C:\Users\Alexander Guan\Documents\GitHub\WindowsStoreApp1\App1\App1\obj\Debug\</IntermediateOutputPath>
-    <RegisteredManifestChecksum>4AD93EC68C2D72EB39C3B28B0EAC922F6E4F7091518181A188B2D904F46CAD86</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>1BEB066571059F7AC569667001BEC016D9363684B6DDB5F5B969753B2F1BD916</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>e7b3a487-699d-462f-9dd0-53649b3a2d07_1.0.0.0_neutral__r7t9nvry217fc</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>e7b3a487-699d-462f-9dd0-53649b3a2d07_r7t9nvry217fc!App</RegisteredUserModeAppID>
     <RegisteredPackageID>e7b3a487-699d-462f-9dd0-53649b3a2d07</RegisteredPackageID>
@@ -20,13 +20,13 @@
     <AppXManifest Include="C:\Users\Alexander Guan\Documents\GitHub\WindowsStoreApp1\App1\App1\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-02-08T13:53:18.265</Modified>
+      <Modified>2015-03-08T03:07:10.599</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Alexander Guan\Documents\GitHub\WindowsStoreApp1\App1\App1\bin\Debug\App1.exe">
       <PackagePath>App1.exe</PackagePath>
-      <Modified>2015-02-20T05:01:30.390</Modified>
+      <Modified>2015-03-08T03:23:38.796</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Alexander Guan\Documents\GitHub\WindowsStoreApp1\App1\App1\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
@@ -52,17 +52,25 @@
       <PackagePath>App.xbf</PackagePath>
       <Modified>2015-02-07T02:50:54.741</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexander Guan\Documents\GitHub\WindowsStoreApp1\App1\App1\bin\Debug\AnotherPage.xbf">
+      <PackagePath>AnotherPage.xbf</PackagePath>
+      <Modified>2015-03-04T13:40:52.002</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Alexander Guan\Documents\GitHub\WindowsStoreApp1\App1\App1\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
       <Modified>2015-02-20T05:01:30.187</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexander Guan\Documents\GitHub\WindowsStoreApp1\App1\App1\bin\Debug\Page2.xbf">
+      <PackagePath>Page2.xbf</PackagePath>
+      <Modified>2015-03-08T03:06:24.187</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Alexander Guan\Documents\GitHub\WindowsStoreApp1\App1\App1\bin\Debug\App1.xr.xml">
       <PackagePath>App1.xr.xml</PackagePath>
-      <Modified>2015-02-20T05:00:52.260</Modified>
+      <Modified>2015-03-08T03:06:24.165</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Alexander Guan\Documents\GitHub\WindowsStoreApp1\App1\App1\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-02-07T02:50:55.092</Modified>
+      <Modified>2015-03-08T03:07:10.514</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

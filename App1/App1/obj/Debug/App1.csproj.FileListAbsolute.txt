@@ -94,3 +94,13 @@ C:\Users\statdev\Documents\GitHub\WindowsStoreApp1\App1\App1\obj\Debug\qualifier
 C:\Users\statdev\Documents\GitHub\WindowsStoreApp1\App1\App1\obj\Debug\qualifiers.txt.intermediate
 C:\Users\statdev\Documents\GitHub\WindowsStoreApp1\App1\App1\obj\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\statdev\Documents\GitHub\WindowsStoreApp1\App1\App1\obj\Debug\ProjectArchitectures.txt
+C:\Users\Alexander Guan\Documents\GitHub\WindowsStoreApp1\App1\App1\bin\Debug\AnotherPage.xbf
+C:\Users\Alexander Guan\Documents\GitHub\WindowsStoreApp1\App1\App1\obj\Debug\AnotherPage.g.i.cs
+C:\Users\Alexander Guan\Documents\GitHub\WindowsStoreApp1\App1\App1\obj\Debug\AnotherPage.g.cs
+C:\Users\Alexander Guan\Documents\GitHub\WindowsStoreApp1\App1\App1\obj\Debug\AnotherPage.xaml
+C:\Users\Alexander Guan\Documents\GitHub\WindowsStoreApp1\App1\App1\obj\Debug\AnotherPage.xbf
+C:\Users\Alexander Guan\Documents\GitHub\WindowsStoreApp1\App1\App1\bin\Debug\Page2.xbf
+C:\Users\Alexander Guan\Documents\GitHub\WindowsStoreApp1\App1\App1\obj\Debug\Page2.g.i.cs
+C:\Users\Alexander Guan\Documents\GitHub\WindowsStoreApp1\App1\App1\obj\Debug\Page2.g.cs
+C:\Users\Alexander Guan\Documents\GitHub\WindowsStoreApp1\App1\App1\obj\Debug\Page2.xaml
+C:\Users\Alexander Guan\Documents\GitHub\WindowsStoreApp1\App1\App1\obj\Debug\Page2.xbf
